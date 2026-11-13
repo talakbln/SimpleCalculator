@@ -1,4 +1,5 @@
-#include <iostream> 
+#include <iostream>
+#include <cmath> 
  
 int main() { 
     double a, b; 
@@ -9,6 +10,7 @@ int main() {
     std::cout << "Sum = " << a + b << std::endl; 
     std::cout << "Difference = " << a - b << std::endl; 
     std::cout << "Product = " << a * b << std::endl; 
+    std::cout << "Power = " << std::pow(a, b) << std::endl; 
  
     if (b != 0) { 
         std::cout << "Quotient = " << a / b << 
