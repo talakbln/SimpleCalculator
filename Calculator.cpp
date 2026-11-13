@@ -2,20 +2,20 @@
  
 int main() { 
     double a, b; 
+
+    std::cout << "Welcome to SimpleCalculator!" << std::endl;
  
     std::cout << "Enter two numbers: "; 
     std::cin >> a >> b; 
  
-    std::cout << "Addition result = " << a + b << std::endl; 
+    std::cout << "The sum of the two numbers is: " << a + b << std::endl; 
     std::cout << "Difference = " << a - b << std::endl; 
     std::cout << "Product = " << a * b << std::endl; 
  
     if (b != 0) { 
-        std::cout << "Quotient = " << a / b << 
-std::endl; 
+        std::cout << "Quotient = " << a / b << std::endl; 
     } else { 
-        std::cout << "Division by zero is not allowed." 
-<< std::endl; 
+        std::cout << "Division by zero is not allowed." << std::endl; 
     } 
  
     return 0; 
